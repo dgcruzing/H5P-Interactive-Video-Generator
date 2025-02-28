@@ -88,7 +88,7 @@ This is a WIP, and we’d love your help! Fork the repo, tweak the code, and sub
 MIT License—feel free to use and modify!
 
 ## 🙏 Thanks
-Built with ❤️ by [yourusername] and the xAI Grok assistant. Stay tuned for updates!
+Built with ❤️ by ACS and the xAI Grok assistant. Stay tuned for updates!
 
 ---
 

@@ -1,0 +1,80 @@
+Prompt: Return the response as a valid JSON object or list, strictly formatted as requested, with no additional text outside the JSON structure.
+Given only this summary: The speaker discusses ideal meeting structures to maximize communication without overburdening teams.  They advocate for weekly team meetings (00:45) with a consistent agenda across executive and clinical teams.  The agenda includes a warm-up (01:00), review of meeting rules and purpose/values (01:15), stats and graphs using a red/yellow/green approach (02:00), and a 'parking lot' for group discussion items (02:45).  The speaker emphasizes the importance of group accountability and using statistics to track progress.  Individual check-ins (03:45) are also mentioned, focusing on support and collaboration rather than strict scheduling., analyze the content and generate 4 multiple-choice questions with timestamps (MM:SS) from the summary that require breaking down concepts. Use only the summary provided, not the video or external information. Each question must have 4 options and one correct answer. Return in JSON format with 'time', 'question', 'options', 'correct' keys.
+
+Response: ```json
+[
+  {
+    "time": "00:45",
+    "question": "What is the speaker's recommendation regarding the frequency of team meetings?",
+    "options": [
+      "Daily meetings for enhanced communication",
+      "Bi-weekly meetings to balance workload",
+      "Weekly meetings for consistent updates",
+      "Monthly meetings for high-level overviews"
+    ],
+    "correct": "Weekly meetings for consistent updates"
+  },
+  {
+    "time": "01:15",
+    "question": "What is included in the meeting agenda after the warm-up?",
+    "options": [
+      "Immediately jumping into problem-solving",
+      "Review of meeting rules and purpose/values",
+      "Open discussion of any team member's concerns",
+      "A brainstorming session for new ideas"
+    ],
+    "correct": "Review of meeting rules and purpose/values"
+  },
+  {
+    "time": "02:00",
+    "question": "How are statistics and progress tracked in the meetings?",
+    "options": [
+      "Through detailed written reports",
+      "Using a red/yellow/green approach",
+      "By individual presentations from team members",
+      "With a qualitative assessment of progress"
+    ],
+    "correct": "Using a red/yellow/green approach"
+  },
+  {
+    "time": "03:45",
+    "question": "What is the primary focus of individual check-ins?",
+    "options": [
+      "Strict adherence to individual schedules",
+      "Performance evaluations and accountability",
+      "Support and collaboration among team members",
+      "Reporting on individual task completion"
+    ],
+    "correct": "Support and collaboration among team members"
+  }
+]
+```
+
+
+Full Response: response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n[\n  {\n    \"time\": \"00:45\",\n    \"question\": \"What is the speaker's recommendation regarding the frequency of team meetings?\",\n    \"options\": [\n      \"Daily meetings for enhanced communication\",\n      \"Bi-weekly meetings to balance workload\",\n      \"Weekly meetings for consistent updates\",\n      \"Monthly meetings for high-level overviews\"\n    ],\n    \"correct\": \"Weekly meetings for consistent updates\"\n  },\n  {\n    \"time\": \"01:15\",\n    \"question\": \"What is included in the meeting agenda after the warm-up?\",\n    \"options\": [\n      \"Immediately jumping into problem-solving\",\n      \"Review of meeting rules and purpose/values\",\n      \"Open discussion of any team member's concerns\",\n      \"A brainstorming session for new ideas\"\n    ],\n    \"correct\": \"Review of meeting rules and purpose/values\"\n  },\n  {\n    \"time\": \"02:00\",\n    \"question\": \"How are statistics and progress tracked in the meetings?\",\n    \"options\": [\n      \"Through detailed written reports\",\n      \"Using a red/yellow/green approach\",\n      \"By individual presentations from team members\",\n      \"With a qualitative assessment of progress\"\n    ],\n    \"correct\": \"Using a red/yellow/green approach\"\n  },\n  {\n    \"time\": \"03:45\",\n    \"question\": \"What is the primary focus of individual check-ins?\",\n    \"options\": [\n      \"Strict adherence to individual schedules\",\n      \"Performance evaluations and accountability\",\n      \"Support and collaboration among team members\",\n      \"Reporting on individual task completion\"\n    ],\n    \"correct\": \"Support and collaboration among team members\"\n  }\n]\n```\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.07446030677832993
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 247,
+        "candidates_token_count": 406,
+        "total_token_count": 653
+      },
+      "model_version": "gemini-1.5-flash"
+    }),
+)

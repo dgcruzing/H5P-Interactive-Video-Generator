@@ -3,6 +3,13 @@
 
 Welcome to the H5P Interactive Video Generator! This tool transforms YouTube videos into interactive H5P lessons for Moodle using Gemini AI. Built with Streamlit, it’s a work-in-progress that’s already functional but still being polished. Here’s what it does, what works, and how you can get started!
 
+---
+## 🌐 External Resources
+Copy the link, as GitHub is not letting it hot link out to my acs.h5p hub
+
+- [Sample output and import into H5P.com hub](https://acs.h5p.com/content/1292521251635999299)
+---
+
 ## 🚀 Features
 
 - **Video Summary**: Turns a YouTube video transcript into a concise summary (100-150 words) with timestamps (e.g., "Weekly Team Meetings" at `00:50`).

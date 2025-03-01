@@ -95,7 +95,7 @@ Built with ❤️ by ACS and the xAI Grok assistant. Stay tuned for updates!
 ## 🌐 External Resources
 Copy the link, as GitHub is not letting it hot link out to my acs.h5p hub
 
-- [Sample output and import into H5P.com hub](https://acs.h5p.com/content/1292519232931523959)
+- [Sample output and import into H5P.com hub](https://acs.h5p.com/content/1292521251635999299)
 
 
 You're all set! 🚀

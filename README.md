@@ -95,17 +95,7 @@ This is a WIP, and we’d love your help! Fork the repo, tweak the code, and sub
 MIT License—feel free to use and modify!
 
 ## 🙏 Thanks
-Built with ❤️ by ACS and the xAI Grok assistant. Stay tuned for updates!
-
----
-
-## 🌐 External Resources
-Copy the link, as GitHub is not letting it hot link out to my acs.h5p hub
-
-- [Sample output and import into H5P.com hub](https://acs.h5p.com/content/1292521251635999299)
-
-
-You're all set! 🚀
+Built with ❤️ by ACS and the xAI Grok assistant. 
 
 
 
